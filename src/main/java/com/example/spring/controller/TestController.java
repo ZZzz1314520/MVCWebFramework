@@ -35,7 +35,7 @@ public class TestController {
                 "</head>\n" +
                 "\n" +
                 "<body>\n" +
-                "    <a href=\"http://localhost:8081/mySpring_war_exploded2/\">文件上传<a />\n" +
+                "    <a href=\"http://localhost:8081/mySpring_war_exploded/\">文件上传<a />\n" +
                 "        <a href=\"https://imgtu.com/i/fWohd0\"><img src=\"https://z3.ax1x.com/2021/08/16/fWohd0.png\" alt=\"fWohd0.png\"\n" +
                 "                border=\"0\" /></a>\n" +
                 "</body>\n" +
