@@ -21,15 +21,10 @@ import java.lang.reflect.Method;
 public class CQUApplication {
     private static final String SERVER_PORT_KEY = "server.port";
     private static int serverPort = 8080;
-
     private static String packagePath = "/";
-
     private static String configFilePath = "/application.properties";
-
     public static Map<String, Object> beanFactory = new ConcurrentHashMap<String, Object>();
-
     public static Map<String, Method> methodMapperFactory = new ConcurrentHashMap<String, Method>();
-
     public static void run(Class clazz, String[] args) throws Exception {
         //检查SpringBootApplication 注解及 扫描包路径
         doLoadRunAnnotation(clazz);
